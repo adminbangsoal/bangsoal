@@ -12,14 +12,14 @@ export default function Home() {
         <div className="space-y-2">
           <h1 className="text-2xl font-semibold text-gray-800">Selamat datang!</h1>
           <p className="text-gray-600">
-            Sekarang BangSoal sudah pindah ke domain .id agar lebih ringkas
+            Aplikasi BangSoal sekarang tersedia di app.bangsoal.co.id
           </p>
         </div>
         <a 
-          href="https://bangsoal.id" 
+          href="https://app.bangsoal.co.id" 
           className="px-8 py-4 bg-bangsoal-600 text-white font-semibold rounded-xl hover:bg-bangsoal-700 transition-colors shadow-lg hover:shadow-xl"
         >
-          Kunjungi bangsoal.id
+          Kunjungi BangSoal
         </a>
       </div>
     </div>
