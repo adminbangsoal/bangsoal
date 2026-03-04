@@ -12,7 +12,7 @@ export default function Home() {
         <div className="space-y-2">
           <h1 className="text-2xl font-semibold text-gray-800">Selamat datang!</h1>
           <p className="text-gray-600">
-            Aplikasi BangSoal sekarang tersedia di app.bangsoal.co.id
+            Yuk, langsung meluncur ke aplikasi BangSoal terbaru
           </p>
         </div>
         <a 
