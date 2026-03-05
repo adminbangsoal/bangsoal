@@ -22,3 +22,11 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .font-extra-bold {
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px #111827;
+    text-shadow: 0 0 1px rgba(17, 24, 39, 0.1);
+  }
+}

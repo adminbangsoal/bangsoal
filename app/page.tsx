@@ -15,15 +15,12 @@ export default function Home() {
               className="w-10 h-10 sm:w-16 sm:h-16"
             />
           </span>
-          <h1 className="text-center text-5xl font-800 sm:text-7xl text-gray-900">
+          <h1 className="text-center text-5xl font-bold sm:text-7xl text-gray-900">
             Bangsoal
           </h1>
         </div>
         <div className="flex flex-col items-center gap-2 text-center">
-          <h2 className="text-2xl font-600 text-gray-800">Selamat datang!</h2>
-          <p className="text-lg font-400 text-gray-600">
-            Yuk, Latihan UTBK!
-          </p>
+          <h2 className="text-2xl font-600 text-gray-800">Yuk, latihan UTBK!</h2>
         </div>
         <div className="flex items-center gap-3">
           <a
