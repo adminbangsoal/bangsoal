@@ -1,10 +1,12 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
-  content: [
+content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // <-- Tambahkan baris ini
   ],
   theme: {
     extend: {
@@ -23,6 +25,22 @@ const config: Config = {
           800: '#166534',
           900: '#14532d',
         },
+        surface: {
+          100: colors.white,
+          200: colors.gray[100],
+          300: colors.gray[200],
+        },
+        content: {
+          100: colors.gray[900],
+          200: colors.gray[700],
+          300: colors.gray[500],
+        },
+      },
+      backgroundImage: {
+        "emerald-teal": "linear-gradient(255deg, #3BD9D9 -2.5%, #53DDB7 45.29%)",
+      },
+      fontFamily: {
+        quicksand: ["var(--font-quicksand)", "sans-serif"],
       },
     },
   },
